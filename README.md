@@ -10,19 +10,19 @@ assets consumidos pelos componentes.
 
 ```
 creamy-kit-resources/
-└── iconset/      Ícones em SVG (stroke na cor do tema)
+└── icons/      Ícones em SVG (stroke na cor do tema)
     └── arrow-chevron-right.svg
 ```
 
 ## Iconset
 
-SVGs em geral 16×16 (`viewBox="0 0 16 16"`), com `stroke` na cor do texto/tema.
+SVGs em geral 20×20 (`viewBox="0 0 20 20"`), com `stroke` na cor do texto/tema.
 Usados, por exemplo, no chevron de Breadcrumb, Banner, Header e na navegação do
 Calendar.
 
 | Ícone | Arquivo |
 |-------|---------|
-| Chevron → (direita) | `iconset/arrow-chevron-right.svg` |
+| Chevron → (direita) | `icons/arrow-chevron-right.svg` |
 
 ### Uso
 
@@ -37,7 +37,7 @@ Para que o ícone acompanhe a cor do contexto, troque `stroke="#484848"` por
 
 ## Contribuindo
 
-1. Adicione o SVG na pasta correspondente (`iconset/`).
+1. Adicione o SVG na pasta correspondente (`icons/`).
 2. Mantenha o `viewBox` quadrado e `stroke`/`fill` neutros (preferir
    `currentColor` no consumo).
 3. Atualize a tabela acima.
